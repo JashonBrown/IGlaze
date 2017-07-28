@@ -1,0 +1,31 @@
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-custom" style="width: 100%;" role="navigation" >
+    <div class="navbar-header" style="width: 100%;">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="row" style="width: 100%;">
+            <div class="col-md-1"></div>
+            <a class="navbar-brand col-md-6" href="/" style="padding-top:0px;">
+                <div class="col-lg-4 col-md-4 col-xs-0"><img src="../images/nav_logo.png" style="width:150px; height:60px; margin-right:20px;"></div>
+                <div class="col-lg-8 col-md-8 hidden-xs"> <img src="../images/nav_logo_writting.png" style="width:220px; height:25px; margin-top:24px; margin-left:0px"></div>
+
+            </a>
+            <div class="collapse navbar-collapse extra-class col-md-4" id="navbar-collapse">
+                <ul class="nav nav-pills navbar-right" style="margin-top:30px;">
+                    <li  <% if ( page_name  === 'Home') { %>class="navbar2 active"><a>Home</a> <% } else { %> class="navbar2"><a href="/">Home</a> <% } %></li>
+                    <li <% if ( page_name  === 'Gallery') { %>class="navbar2 active"><a>Portfolio</a> <% } else { %> class="navbar2"><a href="/gallery">Portfolio</a> <% } %></li>
+                    <li <% if ( page_name  === 'About') { %>class="navbar2 active"><a>About</a> <% } else { %> class="navbar2"><a href="/about">About</a> <% } %></li>
+                    <li <% if ( page_name  === 'Contact') { %>class="navbar2 active"><a>Contact</a> <% } else { %> class="navbar2"><a href="/contact">Contact</a> <% } %></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="navbar-spacer"></div>
+
+<!-- TODO: 1. Make responsiveness on smaller screens not display text
+     TODO: 2. Change nav buttons to fit theme? -->
