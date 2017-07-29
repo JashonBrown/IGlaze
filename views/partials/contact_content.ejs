@@ -5,121 +5,115 @@
         <div class="col-md-12"><hr></div>
             <div class="col-md-6">
                 <div class="col-md-12" style="padding-left:30px; padding:0px 30px 30px 30px; text-align: center">
-                <h3><i>Details</i></h3>
-                <br>
-                <br>
-                <div class="col-md-6">
-                    <p>
-                       <strong>Phone</strong>
-                    </p>
-                    <p>021-221-1770</p>
+                    <h3><i>Details</i></h3>
+                    <br>
                     <br>
                     <p>
-                        <strong>PO Box</strong>
+                        <span class="glyphicon glyphicon-earphone glyph-padding" aria-hidden="true" ></span>
+                        021-221-1770
                     </p>
+                    <br>
                     <p>
-                        PO Box 12345
-                        Kapiti Coast, Wellington 5036
+                        <span class="glyphicon glyphicon-envelope glyph-padding" aria-hidden="true" ></span>
+                        iglaze-kapiti@gmail.com
                     </p>
+                    <br>
+                    <p>
+                        <span class="glyphicon glyphicon-time glyph-padding" aria-hidden="true" ></span>
+                        Monday - Friday: 7:30 AM to 4:30 PM
+                    </p>
+                    <br>
+                    <br>
+
+                        <ul class="social" style="display: inline-block; text-align: center; margin-top:-20px; margin-bottom:20px;">
+                            <li style="margin-left:-30px;"><a href="https://www.facebook.com/Iglaze-1138673952827504/"> <i class=" fa fa-facebook"></i> </a> </li>
+                        </ul>
+
+                        <p>
+                            <strong>
+                                Find us:
+                            </strong><br>
+                            16 Mahara Place<br>
+                            Wellington, New Zealand<br>
+                            5036
+                        </p>
                 </div>
-                <div class="col-md-6">
-                    <p>
-                        <strong>
-                                Email
-                        </strong>
-                    </p>
-                    <p>iglaze-kapiti@gmail.com</p>
-                    <br>
-                    <p>
-                        <strong>
-                                Open Hours
-                        </strong>
-                    </p>
-                    <p>Monday - Friday:<br>7:30 AM to 4:30 PM</p>
-                <br>
-               </div>
-                    <div class="col-md-12">
-                        <div class="col-md-12"><hr></div>
-
-                    <strong>
-                        Address
-                    </strong>
-                </p>
-                <p>
-                    16 Mahara Place<br>
-                    Wellington, New Zealand<br>
-                    5036
-                </p>
-                        </div>
-                    <br>
-                <div class="map" id="mapDiv"></div>
             </div>
-            </div>
-        <div class="col-md-6" id="message_form">
-
-            <div class="col-md-12" style="padding-left:30px; padding:0px 30px 30px 30px; text-align: center">
-                <form action="/contact" method="post" id="contact_form" style="box-shadow: none;" onsubmit="validateForm(); successSubmit()">
-                    <h3>Have a question?</h3>
-                    <h5><i>Use the form below to drop us an email!</i></h5>
-                    <br>
-                    <!-- Name input-->
-                    <div class="form-group">
-                        <div class="input-group" style="width: 100%;">
-                            <span class="input-group-addon"><i class="ion-person"></i></span>
-                            <input name="name" placeholder="Full Name" class="form-control" type="text" required>
-                        </div>
-                    </div>
-
-                    <!-- Phone input-->
-                    <div class="form-group">
-                        <div class="input-group" style="width: 100%;">
-                            <span class="input-group-addon"><i class="ion-ios-telephone"></i></span>
-                            <input name="phone" placeholder="Phone Number" class="form-control" type="number" required>
-                        </div>
-                    </div>
-
-                    <!-- Email input-->
-                    <div class="form-group">
-                        <div class="input-group" style="width: 100%;">
-                            <span class="input-group-addon"><i class="ion-email"></i></span>
-                            <input name="email" placeholder="E-Mail Address" class="form-control" type="text" required>
-                        </div>
-                    </div>
-
-                    <!-- Comment input -->
-                    <div class="form-group">
-                        <div class="input-group" style="width: 100%; height:100%;">
-                            <span class="input-group-addon"><i class="ion-edit"></i></span>
-                            <textarea class="form-control contactTextArea" style="height:100%; min-height: 220px;" name="comment"
-                                      placeholder="Message" required></textarea>
-                        </div>
-                    </div>
-                    <!-- Success message -->
-                    <div class="alert alert-success" role="alert" id="success_message">Success <i
-                                class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you
-                        shortly.
-                    </div>
-                    <!-- CAPTCHA -->
-                    <div class="col-md-12" align="center">
-                        <div class="g-recaptcha" data-sitekey="6LccISoUAAAAAPMJ_j2KVeS_6MrRDeYL9mpnX8_b"></div>
-                    </div>
-                    <!-- Button -->
-                    <div class="form-group">
-                        <label class="control-label"></label>
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4">
-                            <button type="submit" class="btn btn-warning" style="width: 100% !important; margin-top: 10px;">
-                                Send
-                                <span class="ion-paper-airplane"></span>
-                            </button>
-                        </div>
-                        <div class="col-md-4"></div>
-                    </div>
-                </form>
-            </div>
+        <div class="col-md-6" >
+            <div class="map" id="mapDiv"></div>
         </div>
-            </div>
-        </div>
+</div>
+
+<div class="col-md-12">
+    <hr>
+</div>
+
+<div class="col-md-2"></div>
+<div class="col-md-8">
+       <div class="row">
+           <div class="col-md-12" style="padding-left:30px; padding:0px 30px 30px 30px; text-align: center">
+               <form action="/contact" method="post" id="contact_form" style="box-shadow: none;" onsubmit="validateForm(); successSubmit()">
+                   <h3>Have a question?</h3>
+                   <h5><i>Use the form below to drop us an email!</i></h5>
+                   <br>
+                   <div id="contact_form_div">
+                   <!-- Name input-->
+                   <div class="form-group">
+                       <div class="input-group" style="width: 100%;">
+                           <span class="input-group-addon"><i class="ion-person"></i></span>
+                           <input name="name" id="name" placeholder="Full Name" class="form-control" type="text" required>
+                       </div>
+                   </div>
+
+                   <!-- Phone input-->
+                   <div class="form-group">
+                       <div class="input-group" style="width: 100%;">
+                           <span class="input-group-addon"><i class="ion-ios-telephone"></i></span>
+                           <input name="phone" id="phone" placeholder="Phone Number" class="form-control" type="number">
+                       </div>
+                   </div>
+
+                   <!-- Email input-->
+                   <div class="form-group">
+                       <div class="input-group" style="width: 100%;">
+                           <span class="input-group-addon"><i class="ion-email"></i></span>
+                           <input name="email" id="email" placeholder="E-Mail Address" class="form-control" type="text">
+                       </div>
+                   </div>
+
+                   <!-- Comment input -->
+                   <div class="form-group">
+                       <div class="input-group" style="width: 100%; height:100%;">
+                           <span class="input-group-addon"><i class="ion-edit"></i></span>
+                           <textarea class="form-control contactTextArea" id="message" style="height:100%; min-height: 220px;" name="comment"
+                                     placeholder="Message" required></textarea>
+                       </div>
+                   </div>
+                   <!-- CAPTCHA -->
+                   <div class="col-md-12" align="center" style="padding-top: 8px; padding-bottom: 8px;">
+                       <div class="g-recaptcha" data-sitekey="6LccISoUAAAAAPMJ_j2KVeS_6MrRDeYL9mpnX8_b"></div>
+                   </div>
+                   <!-- Button -->
+                   <div class="form-group" align="center">
+                       <label class="control-label"></label>
+                       <div class="col-md-4"></div>
+                       <div class="col-md-4">
+                           <button type="submit" class="btn btn-warning" style="width: 100% !important; margin-top: 10px;">
+                               Send
+                               <span class="ion-paper-airplane"></span>
+                           </button>
+                       </div>
+                       <div class="col-md-4"></div>
+                   </div>
+                       </div>
+                   <!-- Success message -->
+                   <div class="alert alert-success" role="alert" id="success_message" style="display: none">Success <i
+                               class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you
+                       shortly.
+                   </div>
+               </form>
+           </div>
+       </div>
 </div>
 
 <script>
@@ -140,25 +134,34 @@
         });
     }
 
-    function successSubmit(){
-        $.ajax({
+    $(document).ready(function() {
+        function reload_cart() {
+            alert('reload cart called');
+        }});
 
-            type: "GET",
-            url: '../contact',
-            data: "id=test" , // appears as $_GET['id'] @ your backend side
-            success: function(data) {
-                // data is ur summary
-                $('#summary').html(data);
-            }
+    $("#contact_form").submit(function(event) {
 
+        /* stop form from submitting normally */
+        event.preventDefault();
+
+        /* get the action attribute from the <form action=""> element */
+        var $form = $( this ),
+                url = $form.attr( 'action' );
+
+        /* Send the data using post with element id name and name2*/
+        var posting = $.post( url, { name: $('#name').val(), phone: $('#phone').val(), email: $('email').val(), message: $('#message').val() } );
+
+        /* Alerts the results */
+        posting.done(function( data ) {
+            console.log("We submitted");
+            reload_cart();
         });
-    }
+    });
+
+
+
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBexEIISrym33aTgAbIboAZ7gAkPTsVFxk&callback=myMap"></script>
 
 <!-- TODO: Add NO CAPTCHA reCAPTCHA -->
-
-<!-- <ul class="social">
-                    <li><a href="https://www.facebook.com/Iglaze-1138673952827504/"> <i class=" fa fa-facebook"></i> </a> </li>
-                </ul> -->

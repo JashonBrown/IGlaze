@@ -1,28 +1,32 @@
+<!--------- UPPER PARRALAX IMAGE START ------------->
 <div class="row" style="margin:0px; height: 85%; border-bottom: 2px solid #e3e3e3;">
     <div class="col-md-12" style="height:100%; padding:0px;">
         <div class="highlight"></div>
-        <div class="row highlight-text" style="padding-top: 10%;">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 highlight-container" style="padding-bottom: 15px;" align="center">
-                <h3>Welcome to IGlaze</h3>
-                <h1>Glazier repairs and stuff</h1>
-            </div>
-        </div>
-        <div class="row highlight-text" style="padding-top: 20%;">
-            <div class="col-md-4"></div>
-            <div class="col-md-4 highlight-container" style="padding-bottom: 15px;" align="center">
-                <h3>Welcome to IGlaze, temp
-                temp temp temp temp</h3>
+        <div class="highlight-text" style="padding-top: 10%;">
+            <div class="col-md-6"></div>
+            <div class="col-md-4" align="center">
+                <div class="highlight-container" style="padding-bottom: 15px; padding-top:5px;">
+                    <h3>Welcome to IGlaze</h3>
+                    <h1>Glass & Glazing services</h1>
+                </div>
+                <div class="arrow-down"></div>
             </div>
         </div>
         <div class="parallax"></div>
     </div>
 </div>
-<br>
-<div class="row" style="padding-bottom:30px; margin:0px;">
+<!--------- UPPER PARRALAX IMAGE END ------------->
+
+<!--------------- CONTENT START ------------------>
+<div class="container middleInnerContainer" style="margin-top:50px ">
+    <div class="col-md-12" align="center">
+        <h1>Welcome to IGlaze</h1>
+        <hr>
+    </div>
+
+    <div class="row" style="padding-bottom:30px; margin:0px; padding-top: 15px">
         <div class="col-md-12">
-            <br>
-            <div class="col-md-6">
+            <div class="col-md-6" style="margin-top: 25px">
                 <div class="container-fluid" style="padding:0px">
                     <div id="carousel" class="carousel slide" style="width: 100%; height:50%;">
                         <!-- Indicators -->
@@ -93,7 +97,10 @@
             </div>
         </div>
 </div>
-<div class="row" style="border-bottom: 2px solid #e3e3e3; padding-bottom:30px; margin:0px">
+    <div class="col-md-12">
+        <hr>
+    </div>
+<div class="row" style="padding-bottom:30px; margin:0px">
     <div class="col-md-12" style="padding-left:30px; padding-right:30px;">
         <br>
         <p>
@@ -121,44 +128,10 @@
         </p>
     </div>
 </div>
-<div class="row" style="margin:0px; height: 50%; border-bottom: 2px solid #e3e3e3;">
-    <div class="col-md-12" style="height:100%; padding:0px;">
-        <div class="highlight"></div>
-        <div class="row highlight-text" style="padding-top: 7.5%;">
-            <div class="col-md-2"></div>
-            <div class="col-md-2" style="padding-bottom: 15px;" align="center">
-                <h1>Welcome to IGlaze</h1>
-            </div>
-        </div>
-        <div class="parallax-2"></div>
-    </div>
 
 </div>
-<div class="row" style="margin: 0px;">
-    <div class="col-md-12" style="padding-left:30px; padding-right:30px;">
-        <br>
-        <p>
-            <strong>
-                <span style="color:gray">
-                    Heading for more text here...
-                </span>
-            </strong>
-        </p>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
-        <p>
-            Write more stuff here? Write more stuff here? Write more stuff here? Write more stuff here?
-        </p>
-        <p>
-            <strong>
-                <span style="color:gray">
-                    Contact IGlaze for all your glass repairs and mirror installations. We will work with you
-                    regarding any other glass requirements so we can find the best solution to meet your needs.
-                </span>
-            </strong>
-        </p>
-    </div>
-</div>
+<script>
+$(window).scroll(function(){
+    $(".highlight").css("opacity", 0.3 + $(window).scrollTop() / 1000);
+});
+</script>

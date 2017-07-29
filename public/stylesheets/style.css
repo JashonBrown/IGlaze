@@ -113,23 +113,11 @@ a {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.85;
+  opacity: 0.3;
   font-family: Verdana, Geneva, sans-serif;
   color: #FFF;
   bottom: 0px;
   z-index: 1;
-}
-
-.highlight-2{
-  background-color: white;
-  position: absolute;
-  height: 100%;
-  width: 30%;
-  opacity: 0.85;
-  font-family: Verdana, Geneva, sans-serif;
-  color: #FFF;
-  bottom: 0px;
-  z-index: 2;
 }
 
 .highlight-text{
@@ -143,9 +131,11 @@ a {
 }
 
 .highlight-container{
-  background-color: white;
-  opacity: 0.6;
-  color:black;
+  background-color: #b30000;
+  opacity: 0.8;
+  color:white;
+  top:20%;
+  border-radius: 50px;
 }
 
 .img-circle{
@@ -154,6 +144,16 @@ a {
   border-radius: 50%;
   height:250px;
   width:250px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+  border-top: 30px solid #b30000;
+  opacity: 0.8;
 }
 
 .parallax {
@@ -169,21 +169,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.parallax-2 {
-  /* The image used */
-  background-image: url("../images/firetruck.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 /*------------- NAVBAR CSS -----------*/
 .nav-pills > li.navbar1.active > a,
@@ -245,6 +230,14 @@ a {
   margin:68px;
 }
 
+.toggle-spacing{
+  margin-top:13px;
+  margin-bottom:0px
+}
+
+.glyph-padding{
+  padding-right: 15px;
+}
 /*---------- FOOTER CSS -----------*/
 .footer{
   text-align: center;
