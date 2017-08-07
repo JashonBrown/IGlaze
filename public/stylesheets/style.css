@@ -1,9 +1,9 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: rgba(20, 20, 20, 1);
-  color:white;
+  color: #d7d2ca;
   min-height: 100%;
   margin-bottom:-20px;
   padding-bottom:-20px;
@@ -12,6 +12,11 @@ html, body {
 
 a {
   color: white;
+}
+
+.text-header{
+  color: #9b0000;
+  font-weight: 900;
 }
 
 .carousel-inner > .item > img,
