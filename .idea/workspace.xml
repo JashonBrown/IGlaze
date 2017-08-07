@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="abeb28e9-59e0-4f31-ac1a-8007a360e2e0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/gallery_content.ejs" afterPath="$PROJECT_DIR$/views/partials/gallery_content.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/footer.ejs" afterPath="$PROJECT_DIR$/views/partials/footer.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/head.ejs" afterPath="$PROJECT_DIR$/views/partials/head.ejs" />
     </list>
     <ignored path="IGlaze.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +42,18 @@
           <file leaf-file-name="head.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/partials/head.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="132" selection-start-line="23" selection-start-column="132" selection-end-line="23" selection-end-column="132" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/partials/footer.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -98,7 +109,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="gallery_content.ejs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="gallery_content.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/partials/gallery_content.ejs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="446">
@@ -150,7 +161,6 @@
         <option value="$PROJECT_DIR$/views/partials/footer2.ejs" />
         <option value="$PROJECT_DIR$/views/partials/image_list.ejs" />
         <option value="$PROJECT_DIR$/views/partials/home_carousel.ejs" />
-        <option value="$PROJECT_DIR$/views/partials/footer.ejs" />
         <option value="$PROJECT_DIR$/views/partials/navbar2.ejs" />
         <option value="$PROJECT_DIR$/views/pages/gallery.ejs" />
         <option value="$PROJECT_DIR$/views/pages/contact.ejs" />
@@ -162,9 +172,10 @@
         <option value="$PROJECT_DIR$/views/pages/index.ejs" />
         <option value="$PROJECT_DIR$/views/partials/home_content.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/views/partials/head.ejs" />
         <option value="$PROJECT_DIR$/views/partials/about_content.ejs" />
         <option value="$PROJECT_DIR$/views/partials/gallery_content.ejs" />
+        <option value="$PROJECT_DIR$/views/partials/head.ejs" />
+        <option value="$PROJECT_DIR$/views/partials/footer.ejs" />
       </list>
     </option>
   </component>
@@ -411,12 +422,12 @@
       <workItem from="1501035540044" duration="14369000" />
       <workItem from="1501277296481" duration="17611000" />
       <workItem from="1501990171165" duration="2800000" />
-      <workItem from="1502074736003" duration="953000" />
+      <workItem from="1502074736003" duration="1426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134384000" />
+    <option name="totallyTimeSpent" value="134857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/gallery.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -710,14 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/about_content.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -730,6 +726,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="303" column="6" selection-start-line="303" selection-start-column="6" selection-end-line="303" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="132" selection-start-line="23" selection-start-column="132" selection-end-line="23" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
